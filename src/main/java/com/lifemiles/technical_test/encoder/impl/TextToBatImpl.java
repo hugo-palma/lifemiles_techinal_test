@@ -9,6 +9,7 @@ import java.util.Map;
 public class TextToBatImpl implements Encoder {
     Map<String, Character> translationTable = new HashMap<>();
     public TextToBatImpl(){
+        //TODO this would be loaded from application.properties
         translationTable.put("M", '0');
         translationTable.put("U", '1');
         translationTable.put("R", '2');

@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DefaultEncoderProcessor extends EncoderProcessor {
-
     @Override
     protected List<Encoder> makeEncoderList() {
         Encoder textToMorseImpl = new TextToMorseImpl();

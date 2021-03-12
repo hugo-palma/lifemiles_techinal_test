@@ -8,7 +8,7 @@ import java.util.Map;
 public class TextToMorseImpl implements Encoder {
     Map<String, String> translationTable = new HashMap<>();
     public TextToMorseImpl(){
-        //TODO make configuration file to hold table and then load to translationTable
+        //TODO this would be loaded from application.properties
         translationTable.put("a", ".-");
         translationTable.put("b", "-...");
         translationTable.put("c", "-.-.");
