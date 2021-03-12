@@ -17,7 +17,7 @@ public class TechnicalTestApplication {
     public static void main(String[] args) {
         SpringApplication.run(TechnicalTestApplication.class, args);
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Input the string to encode");
+        System.out.println("Input the string to encode:");
         String inputText = null;
         try {
              inputText = reader.readLine();
